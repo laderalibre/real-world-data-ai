@@ -1,0 +1,14 @@
+# Secrets: personal API keys and tokens never go in the repo
+.env
+.env.*
+*.key
+
+# Local data and outputs
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.csv
+exports/
+.venv/
+__pycache__/
+.DS_Store
